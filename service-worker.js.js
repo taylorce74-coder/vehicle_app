@@ -1,5 +1,5 @@
 // A simple service worker for caching
-const CACHE_NAME = 'vehicle-app-v1';
+const CACHE_NAME = 'index';
 const urlsToCache = ['/', '/index.html', '/manifest.json'];
 
 self.addEventListener('install', event => {
